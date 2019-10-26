@@ -7528,9 +7528,10 @@ h1, h2, h3, h4, h5,
         border: 2px solid rgba(255, 255, 255, 0.5);
         outline: none !important;
         position: relative;
-        -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
-        transition: .3s all ease;
+        -webkit-transition: 10s all ease;
+        -o-transition: 10s all ease;
+        transition: 10s all ease;
         display: inline-block; }
         .owl-carousel.home-slider .owl-dots .owl-dot span {
           position: absolute;
@@ -7548,6 +7549,7 @@ h1, h2, h3, h4, h5,
           border: 2px solid white; }
           .owl-carousel.home-slider .owl-dots .owl-dot.active span {
             background: white; }
+
 
 .owl-custom-nav {
   float: right;
